@@ -1,0 +1,159 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    overflow-x: hidden; /* Evita la barra de desplazamiento horizontal */
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos del encabezado */
+.header {
+    background-color: #360303;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    text-align: center;
+    max-height: 100px; /* Altura máxima de la barra de navegación */
+    overflow: hidden; /* Oculta el contenido que excede la altura máxima */
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilos del contenido principal */
+.main-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Estilos de las imágenes y párrafos en el contenido principal */
+.main-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    margin-bottom: 15px;
+}
+
+/* Estilos de los botones en el contenido principal */
+.button-group {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button, a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #da0202;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover, a:hover {
+    background-color: #ce0801;
+}
+
+/* Estilos del pie de página */
+.footer {
+    background-color: #2b0202;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .container {
+    text-align: center;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-nav a:hover {
+    color: #ffd700;
+}
+
+/* Estilos del contenido dentro de .content-wrapper */
+.text-content {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.text-content h2, .text-content h3 {
+    color: #360303;
+    margin-top: 20px;
+}
+
+.text-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.text-content ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilos del encabezado con usuario y botón de inicio de sesión */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.login-button button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #da0202;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.login-button button:hover {
+    background-color: #ce0801;
+}

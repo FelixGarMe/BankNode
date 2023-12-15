@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Nombre de Tu Aplicación</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1>Development</h1>
+                <div class="user-profile">
+                    <img src="https://picsum.photos/40" alt="Imagen de Usuario">
+                    <span>Nombre de Usuario</span>
+                </div>
+                <div class="login-button">
+                    <button type="button">Iniciar Sesión</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+    <main class="container main-container">
+        <section class="main-content">
+            <div>
+                <%- include(view) %>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <nav class="footer-nav">
+                <a href="/">Home</a>
+                <a href="/divisa">Divisa</a>
+                <a href="/ingresos">Ingresos</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
